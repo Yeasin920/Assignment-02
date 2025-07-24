@@ -82,13 +82,14 @@ body{
 .our-plants{
     text-align: center;
     margin-top: 120px;
+    margin-bottom: 49px;
 }
 /*lily-banner*/
 .lily-blossom{
     max-width: 270px;
     height: 484px;
     align-items: end;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 .lily-img{
     max-width: 100%;
@@ -127,7 +128,7 @@ body{
 /*badge-style*/
 #badge{
     display: flex;
-    margin-top: 100px;
+    margin-top: 120px;
     position: relative;
 }
 .badge-img{
@@ -161,4 +162,122 @@ body{
     text-align: center;
     margin-top: 120px;
     margin-bottom: 80px;
+}
+/*zabo-plant*/
+.zabo-plant{
+    display: flex;
+    gap: 20px;
+}
+.bg-img{
+    background-image: url(./assets/deal-bloom.png);
+    height: 201px;
+    width: 367px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+.text-center{
+    margin: 0 auto;
+}
+.img-bg{
+    background-image: url(./assets/deal-ana.png);
+    height: 197px;
+    width: 367px;
+    text-align: center;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+.img-right{
+    background-image: url(./assets/deal-zabo.png);
+    height: 423px;
+    width: 753px;text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.text-center .left-info{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-center .left-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+.text-center .right-info{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-center .right-link{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/*colorful*/
+.colorful{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 533px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.colorful-info{
+    text-align: center;
+    margin: auto;
+}
+.colorful-info .colorful-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#input-email{
+    width: 644px;
+    height: 50px;
+   padding: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.subscribe-btn{
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #E95A08;
+    padding: 18px 53px;
+    max-height: 50px;
+    margin-left: -10px;
+    border: none;
+}
+/*footer-content*/
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    height: 248px;
+    margin: 50px auto;
+}
+.footer-ul li{
+    list-style: none;
+    color: gray;
+}
+.footer-ul{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    gap: 10px;
+}
+#footer-p{
+    margin-top: 16px;
+}
+.end-img{
+    margin-left: 24px;
 }
