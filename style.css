@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared style*/
+.max-width{
+    max-width: 1140px;
+    margin: auto;
+}
+.btn-color{
+    color: #E95A08;
+}
+.p-color{
+    color: rgba(0,0,0,0.5);
+    font-size: 22px;
+    line-height: auto;
+}
+
+body{
+    background-color: #F5F8FF;
+}
+/*navbar*/
+.navbar{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+    gap: 48px;
+    margin-top: 50px;
+}
+.nav-ul .nav-li{
+    list-style: none;
+}
+.nav-a{
+    text-decoration: none;
+    color: #8987A1;
+}
+#dark{
+    color: #252432;
+}
+#dark-2{
+    color: #000000;
+}
+/*header-banner*/
+.header-banner{
+    height: 461px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    align-items: end;
+}
+.header-contenet{
+    max-width: 50%;
+}
+.header-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.fresh{
+    color: #E95A08;
+}
+.header-description{
+    margin-top: 10px;
+}
+#head-img{
+    max-width: 50%;
+    height: 355px;
+}
+.header-img{
+    max-width: 100%;
+    display: block;
+}
+/*main-section*/
+.our-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.our-plants{
+    text-align: center;
+    margin-top: 120px;
+}
+/*lily-banner*/
+.lily-blossom{
+    max-width: 270px;
+    height: 484px;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.lily-img{
+    max-width: 100%;
+    height: 323px;
+}
+.lily-info{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #111111;
+}
+#abc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#usd{
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.lily-btn{
+    color: #ffffff;
+    background-color: #E95A08;
+    width: 100%;
+    font-weight: 600;
+    height: 50px;
+    border: none;
+}
+.lily-content{
+    text-align: center;
+}
+.lily-banner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+/*badge-style*/
+#badge{
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+}
+.badge-img{
+    width: 540px;
+    height: 597px;
+}
+.main-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -130px;
+    left: 31%;
+}
+.badge-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#badge-info{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.badge-description{
+    max-width: 540px;
+    height: 521px;
+    margin-left: 100px;
+    margin-top: 33px;
+}
+/*deals*/
+.deals{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
